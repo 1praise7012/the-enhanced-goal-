@@ -1,0 +1,41 @@
+body{
+  margin:0;
+  background:black;
+  overflow:hidden;
+  font-family:Arial;
+}
+
+#background{
+  width:100vw;
+  height:100vh;
+  object-fit:cover;
+  position:absolute;
+}
+
+#dialogue-box{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background:rgba(0,0,0,0.8);
+  color:white;
+  padding:20px;
+}
+
+#speaker{
+  color:#4da6ff;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+  background:#4da6ff;
+  color:white;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+#warning-screen{
+  color:white;
+  text-align:center;
+  margin-top:20%;
+}
