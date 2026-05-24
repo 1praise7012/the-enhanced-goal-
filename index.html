@@ -1,43 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>A New Dawn</title>
-  <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>A New Dawn</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+<!-- WARNING SCREEN -->
+
 <div id="warning-screen">
-  <h1>⚠️ WARNING ⚠️</h1>
 
-  <p>
-    This game contains emotional themes,
-    grief, strong language, and mature topics.
-  </p>
+<div class="warning-box">
 
-  <button onclick="startGame()">
-    Start Game
-  </button>
+<h1 class="adult-sign">18+</h1>
+
+<h2>⚠️ Mature Audience Warning ⚠️</h2>
+
+<p>
+This visual novel contains:
+</p>
+
+<ul>
+<li>Strong emotional themes</li>
+<li>Mature relationships</li>
+<li>Adult situations</li>
+<li>Violence and grief</li>
+<li>Psychological moments</li>
+</ul>
+
+<p class="warning-text">
+This game is intended only for mature audiences.
+</p>
+
+<button onclick="startGame()">
+ENTER GAME
+</button>
+
 </div>
+
+</div>
+
+<!-- GAME SCREEN -->
 
 <div id="game-screen" style="display:none;">
 
-  <img id="background" src="assets/images/room.jpg">
+<img id="background" src="assets/images/ethan_room_night.jpg">
 
-  <div id="characters"></div>
+<div id="overlay"></div>
 
-  <div id="dialogue-box">
-    <h2 id="speaker">Narrator</h2>
-    <p id="text">
-      Welcome...
-    </p>
+<div id="dialogue-box">
 
-    <div id="choices"></div>
+<h2 id="speaker">
+Narrator
+</h2>
 
-    <button onclick="nextScene()">
-      Continue
-    </button>
-  </div>
+<p id="text">
+Welcome...
+</p>
+
+<div id="choices"></div>
+
+<button id="continue-btn" onclick="nextScene()">
+Continue
+</button>
+
+</div>
 
 </div>
 

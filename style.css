@@ -1,41 +1,148 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-  margin:0;
-  background:black;
-  overflow:hidden;
-  font-family:Arial;
+background:black;
+font-family:Arial, sans-serif;
+overflow:hidden;
+}
+
+/* WARNING SCREEN */
+
+#warning-screen{
+width:100%;
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,0.85),
+rgba(0,0,0,0.95)),
+url("assets/images/warning_bg.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+color:white;
+text-align:center;
+}
+
+.warning-box{
+max-width:600px;
+padding:40px;
+background:rgba(15,15,15,0.85);
+border:2px solid #ff1a1a;
+border-radius:15px;
+box-shadow:0 0 40px rgba(255,0,0,0.4);
+}
+
+.adult-sign{
+font-size:90px;
+color:#ff1a1a;
+margin-bottom:10px;
+}
+
+.warning-box h2{
+margin-bottom:20px;
+font-size:32px;
+}
+
+.warning-box ul{
+margin-top:20px;
+margin-bottom:20px;
+text-align:left;
+line-height:2;
+}
+
+.warning-text{
+margin-top:20px;
+opacity:0.8;
+}
+
+.warning-box button{
+margin-top:30px;
+padding:15px 40px;
+font-size:18px;
+border:none;
+border-radius:8px;
+background:#ff1a1a;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.warning-box button:hover{
+background:#cc0000;
+transform:scale(1.05);
+}
+
+/* GAME */
+
+#game-screen{
+width:100%;
+height:100vh;
+position:relative;
+overflow:hidden;
 }
 
 #background{
-  width:100vw;
-  height:100vh;
-  object-fit:cover;
-  position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
+position:absolute;
+}
+
+#overlay{
+width:100%;
+height:100%;
+position:absolute;
+background:rgba(0,0,0,0.25);
 }
 
 #dialogue-box{
-  position:absolute;
-  bottom:0;
-  width:100%;
-  background:rgba(0,0,0,0.8);
-  color:white;
-  padding:20px;
+position:absolute;
+bottom:0;
+width:100%;
+padding:25px;
+background:
+linear-gradient(
+rgba(0,0,0,0),
+rgba(0,0,0,0.92)
+);
+
+color:white;
+z-index:10;
 }
 
 #speaker{
-  color:#4da6ff;
+font-size:28px;
+color:#5ea6ff;
+margin-bottom:10px;
 }
 
-button{
-  padding:10px 20px;
-  border:none;
-  background:#4da6ff;
-  color:white;
-  cursor:pointer;
-  margin-top:10px;
+#text{
+font-size:22px;
+line-height:1.7;
+max-width:1200px;
 }
 
-#warning-screen{
-  color:white;
-  text-align:center;
-  margin-top:20%;
+#continue-btn{
+margin-top:20px;
+padding:12px 30px;
+font-size:18px;
+border:none;
+border-radius:8px;
+background:#5ea6ff;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+#continue-btn:hover{
+transform:scale(1.05);
+background:#2f8fff;
 }
