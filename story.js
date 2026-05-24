@@ -181,7 +181,7 @@ bg:"assets/images/goodbye_hug.jpg"
 speaker:"Narrator",
 text:"Rain blurred the bus windows as the town slowly disappeared behind him.",
 bg:"assets/images/bus_window_rain.jpg",
-music:"assets/music/bus_theme.mp3"
+music:"assets/music/Lewis Capaldi - Before You Go (Official Video).mp3"
 },
 
 {
@@ -206,7 +206,7 @@ bg:"assets/images/bus_window_rain.jpg"
 speaker:"Narrator",
 text:"Hours later, giant buildings slowly appeared through the darkness.",
 bg:"assets/images/city_arrival.jpg",
-music:"assets/music/city_night.mp3"
+music:"assets/music/Lewis Capaldi - Before You Go (Official Video).mp3"
 },
 
 {
