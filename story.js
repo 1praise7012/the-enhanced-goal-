@@ -206,7 +206,7 @@ bg:"assets/images/bus_window_rain.jpg"
 speaker:"Narrator",
 text:"Hours later, giant buildings slowly appeared through the darkness.",
 bg:"assets/images/city_arrival.jpg",
-music:"assets/music/Lewis Capaldi - Before You Go (Official Video).mp3"
+music:"assets/music/Sam Smith - Fire On Fire (From Watership Down).mp3"
 },
 
 {
