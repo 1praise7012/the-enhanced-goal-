@@ -156,7 +156,7 @@ speaker:"Narrator",
 text:"That final hug felt like holding onto a dying world.",
 bg:"assets/images/goodbye_hug.jpg",
 video:"assets/videos/goodbye_hug.mp4"
-music:"assets/music/emotional_goodbye.mp3"
+music:"assets/music/Sam Smith - Fire On Fire (From Watership Down).mp3"
 },
 
 {
