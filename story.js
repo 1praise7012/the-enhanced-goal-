@@ -153,6 +153,14 @@ bg:"assets/images/goodbye_hug.jpg"
 
 {
 speaker:"Narrator",
+text:"That final hug felt like holding onto a dying world.",
+bg:"assets/images/goodbye_hug.jpg",
+video:"assets/videos/goodbye_hug.mp4"
+music:"assets/music/emotional_goodbye.mp3"
+},
+
+{
+speaker:"Narrator",
 text:"Ethan felt his chest tighten painfully.",
 bg:"assets/images/goodbye_hug.jpg"
 },
