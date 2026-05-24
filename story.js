@@ -4,7 +4,7 @@ const story = [
 speaker:"Narrator",
 text:"Some nights feel heavier than others.",
 bg:"assets/images/ethan_room_night.jpg",
-music:"assets/music/goodbye_theme.mp3"
+music:"assets/music/Faouzia - Born Without A Heart (Audio).mp3"
 },
 
 {
